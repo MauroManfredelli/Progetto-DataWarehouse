@@ -1,0 +1,171 @@
+<Schema name="Sporting_odd">
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Matches">
+    <Hierarchy name="Matches by Sport" visible="true" hasAll="true" allMemberName="All matches" primaryKey="id">
+      <Table name="matches">
+      </Table>
+      <Level name="Sport" visible="true" column="sport" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Competition" visible="true" column="competition" nameColumn="competition_name" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Season" visible="true" column="season" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Portion" visible="true" column="portion" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Match" visible="true" column="match" nameColumn="match_name" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Matches by Country" visible="true" hasAll="true" allMemberName="All matches" primaryKey="id" primaryKeyTable="matches">
+      <Join leftKey="id" rightKey="country">
+        <Table name="countries">
+        </Table>
+        <Table name="matches">
+        </Table>
+      </Join>
+      <Level name="Country" visible="true" table="countries" column="id" nameColumn="name" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Competiton" visible="true" table="matches" column="competition" nameColumn="competition_name" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Season" visible="true" table="matches" column="season" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Portion" visible="true" table="matches" column="portion" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Match" visible="true" table="matches" column="match" nameColumn="match_name" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Matches by Date" visible="true" hasAll="true" allMemberName="All Dates" primaryKey="id" primaryKeyTable="matches">
+      <Join leftKey="date" rightAlias="" rightKey="date">
+        <Table name="matches" schema="" alias="">
+        </Table>
+        <Table name="dates" schema="" alias="">
+        </Table>
+      </Join>
+      <Level name="Year" visible="true" table="dates" column="year" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Month" visible="true" table="dates" column="month" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Date" visible="true" table="dates" column="date" type="Date" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Match" visible="true" table="matches" column="match" nameColumn="match_name" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Matches by Season" visible="true" hasAll="true" primaryKey="id">
+      <Table name="matches" alias="">
+      </Table>
+      <Level name="Season" visible="true" table="matches" column="season" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Portion" visible="true" table="matches" column="portion" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Match" visible="true" table="matches" column="id" nameColumn="match_name" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Participants">
+    <Hierarchy name="Participant by Country" visible="true" hasAll="true" allMemberName="All participants" primaryKey="id" primaryKeyTable="participants">
+      <Join leftKey="country" rightKey="id">
+        <Table name="participants">
+        </Table>
+        <Table name="countries">
+        </Table>
+      </Join>
+      <Level name="Country" visible="true" table="countries" column="id" nameColumn="name" ordinalColumn="name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Participant" visible="true" table="participants" column="id" nameColumn="name" ordinalColumn="name" type="Numeric" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Participants by Sport" visible="true" hasAll="true" allMemberName="All participants" primaryKey="id">
+      <Table name="participants">
+      </Table>
+      <Level name="Sport" visible="true" table="participants" column="sport" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Participant" visible="true" table="participants" column="id" nameColumn="name" ordinalColumn="name" type="Numeric" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="BookMakers">
+    <Hierarchy name="BookMaker" visible="true" hasAll="true" primaryKey="bookmaker">
+      <Table name="matches_odds">
+      </Table>
+      <Level name="BookMaker" visible="true" column="bookmaker" nameColumn="bookmaker" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Results">
+    <Hierarchy name="Result" visible="true" hasAll="true" allMemberName="All Results">
+      <Table name="matches_odds">
+      </Table>
+      <Level name="Result" visible="true" column="result" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="KO">
+    <Hierarchy name="KO" visible="true" hasAll="true" allMemberName="Yes-No">
+      <Table name="matches_odds">
+      </Table>
+      <Level name="KO" visible="true" column="ko" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Correct odd">
+    <Hierarchy name="Correct odd" visible="true" hasAll="true" allMemberName="Yes-No">
+      <Table name="matches_odds">
+      </Table>
+      <Level name="Correct odd" visible="true" column="correct_odd" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Cube name="match_odd" visible="true" cache="true" enabled="true">
+    <Table name="matches_odds">
+    </Table>
+    <DimensionUsage source="Matches" name="Match" visible="true" foreignKey="match" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Participants" name="HomeParticipant" caption="Home Participant" visible="true" foreignKey="home_participant" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Participants" name="AwayParticipant" visible="true" foreignKey="away_participant" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="BookMakers" name="BookMaker" visible="true" foreignKey="bookmaker" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Results" name="Result" visible="true" foreignKey="result" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="KO" name="KO" visible="true" foreignKey="ko" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Correct odd" name="Correct_odd" visible="true" foreignKey="correct_odd" highCardinality="false">
+    </DimensionUsage>
+    <Measure name="odd_1" column="odd_1" datatype="Numeric" aggregator="avg" visible="true">
+    </Measure>
+    <Measure name="odd_2" column="odd_2" datatype="Numeric" aggregator="avg" visible="true">
+    </Measure>
+    <Measure name="odd_x" column="odd_x" datatype="Numeric" aggregator="avg" visible="true">
+    </Measure>
+    <Measure name="Count" column="match" datatype="Integer" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="Count_error_KO" aggregator="sum" visible="true">
+      <MeasureExpression>
+        <SQL dialect="generic">
+          <![CDATA[(CASE WHEN KO = 1 AND CORRECT_ODD=0 AND RESULT<>'x' THEN 1 ELSE 0 END)]]>
+        </SQL>
+      </MeasureExpression>
+    </Measure>
+    <Measure name="Odd_winner_KO" aggregator="avg" visible="true">
+      <MeasureExpression>
+        <SQL dialect="generic">
+          <![CDATA[(CASE WHEN KO = 1 AND RESULT='1' THEN odd_1 WHEN KO=1 AND RESULT='2' THEN odd_2 ELSE NULL END)]]>
+        </SQL>
+      </MeasureExpression>
+    </Measure>
+    <Measure name="Odd_loser_KO" aggregator="avg" visible="true">
+      <MeasureExpression>
+        <SQL dialect="generic">
+          <![CDATA[(CASE WHEN KO = 1 AND RESULT='1' THEN odd_2 WHEN KO=1 AND RESULT='2' THEN odd_1 ELSE NULL END)]]>
+        </SQL>
+      </MeasureExpression>
+    </Measure>
+    <CalculatedMember name="Correct_odd_%" formula="[Measures].[Count]/([Measures].[Count], [Correct_odd].CurrentMember.Parent)" dimension="Measures" visible="true">
+      <CalculatedMemberProperty name="FORMAT_STRING" expression="Iif([Measures].[Correct_odd_%] &#60; 0.5, &#39;|##.##%|style=ffeeba&#39;,  &#39;|##.##%|style=d4edda&#39;)">
+      </CalculatedMemberProperty>
+    </CalculatedMember>
+    <CalculatedMember name="Error_KO_%" formula="[Measures].[Count_error_KO]/([Measures].[Count])" dimension="Measures" visible="true">
+      <CalculatedMemberProperty name="FORMAT_STRING" expression="Iif([Measures].[Error_KO_%] &#62; 0, &#39;|##.##%|style=f8d7da&#39;,  &#39;||style=e2e3e5&#39;)">
+      </CalculatedMemberProperty>
+    </CalculatedMember>
+  </Cube>
+</Schema>

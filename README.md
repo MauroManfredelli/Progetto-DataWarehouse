@@ -1,5 +1,5 @@
 # Progetto-DataWarehouse
-Progetto universitario
+Progetto universitario: realizzazione di un Data Warehouse.
 
 Descrizione dei file e delle cartelle
   1. La cartella Sporting_odds contiene le seguenti sottocartelle:

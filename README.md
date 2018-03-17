@@ -2,14 +2,14 @@
 Progetto universitario
 
 Descrizione dei file e delle cartelle
-  • La cartella Sporting_odds contiene le seguenti sottocartelle:
-  o La cartella dataset contiene i file csv relativi ai dataset sorgente
-  o La cartella etl contiene gli script e i file utilizzati per i processi di etl volti all’alimentazione di:
-  ▪ ODS
-  ▪ Datawarehouse.
-  • La cartella so_workspace contiene il workspace Eclipse.
-  • La cartella dump contiene i dump dell’ods (sottocartella ods) e del datawarehouse (sottocartella ss).
-  • Il file Sporting_odds.xml rappresenta il modello Pentaho per l’analisi.
+  1. La cartella Sporting_odds contiene le seguenti sottocartelle:
+    1.1 La cartella dataset contiene i file csv relativi ai dataset sorgente
+    1.2 La cartella etl contiene gli script e i file utilizzati per i processi di etl volti all’alimentazione di:
+  2. ODS
+  3. Datawarehouse.
+  4. La cartella so_workspace contiene il workspace Eclipse.
+  5. La cartella dump contiene i dump dell’ods (sottocartella ods) e del datawarehouse (sottocartella ss).
+  6. Il file Sporting_odds.xml rappresenta il modello Pentaho per l’analisi.
   
 Guida all’utilizzo per l’esecuzione del processo di ETL
   1. Copiare la directory Sporting_odds all’interno della cartella “Data” di MySQL Server

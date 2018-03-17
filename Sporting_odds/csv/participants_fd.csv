@@ -1,0 +1,262 @@
+div,name
+B1,Cercle Brugge
+B1,Anderlecht
+B1,Dender
+B1,Standard
+B1,Roeselare
+B1,Kortrijk
+B1,Tubize
+B1,Mouscron
+B1,Waregem
+B1,Lokeren
+B1,Westerlo
+B1,Charleroi
+B1,Genk
+B1,Germinal
+B1,Gent
+B1,Bergen
+B1,Mechelen
+B1,Club Brugge
+B1,St Truiden
+B1,Eupen
+B1,Lierse
+B1,Oud-Heverlee Leuven
+B1,Waasland-Beveren
+B1,Oostende
+B1,Mouscron-Peruwelz
+D1,Bayern Munich
+D1,Hamburg
+D1,Bielefeld
+D1,Werder Bremen
+D1,Cottbus
+D1,Hoffenheim
+D1,Karlsruhe
+D1,Bochum
+D1,Leverkusen
+D1,Dortmund
+D1,Schalke 04
+D1,Hannover
+D1,Wolfsburg
+D1,FC Koln
+D1,Ein Frankfurt
+D1,Hertha
+D1,M'gladbach
+D1,Stuttgart
+D1,Mainz
+D1,Nurnberg
+D1,Freiburg
+D1,Kaiserslautern
+D1,St Pauli
+D1,Augsburg
+D1,Fortuna Dusseldorf
+D1,Greuther Furth
+D1,Braunschweig
+D1,Paderborn
+D1,Darmstadt
+D1,Ingolstadt
+E0,Arsenal
+E0,West Brom
+E0,Bolton
+E0,Stoke
+E0,Everton
+E0,Blackburn
+E0,Hull
+E0,Fulham
+E0,Middlesbrough
+E0,Tottenham
+E0,Sunderland
+E0,Liverpool
+E0,West Ham
+E0,Wigan
+E0,Aston Villa
+E0,Man City
+E0,Chelsea
+E0,Portsmouth
+E0,Man United
+E0,Newcastle
+E0,Burnley
+E0,Wolves
+E0,Birmingham
+E0,Blackpool
+E0,QPR
+E0,Norwich
+E0,Swansea
+E0,Reading
+E0,Southampton
+E0,Cardiff
+E0,Crystal Palace
+E0,Leicester
+E0,Bournemouth
+E0,Watford
+F1,Auxerre
+F1,Nantes
+F1,Bordeaux
+F1,Caen
+F1,Le Havre
+F1,Nice
+F1,Le Mans
+F1,Lorient
+F1,Monaco
+F1,Paris SG
+F1,Nancy
+F1,Lille
+F1,Rennes
+F1,Marseille
+F1,Sochaux
+F1,Grenoble
+F1,Valenciennes
+F1,St Etienne
+F1,Lyon
+F1,Toulouse
+F1,Montpellier
+F1,Boulogne
+F1,Lens
+F1,Arles
+F1,Brest
+F1,Ajaccio
+F1,Evian Thonon Gaillard
+F1,Dijon
+F1,Bastia
+F1,Troyes
+F1,Reims
+F1,Guingamp
+F1,Metz
+F1,Angers
+F1,Ajaccio GFCO
+I1,Sampdoria
+I1,Inter
+I1,Udinese
+I1,Palermo
+I1,Atalanta
+I1,Siena
+I1,Cagliari
+I1,Lazio
+I1,Catania
+I1,Genoa
+I1,Chievo
+I1,Reggina
+I1,Fiorentina
+I1,Juventus
+I1,Milan
+I1,Bologna
+I1,Roma
+I1,Napoli
+I1,Torino
+I1,Lecce
+I1,Bari
+I1,Livorno
+I1,Parma
+I1,Cesena
+I1,Brescia
+I1,Novara
+I1,Pescara
+I1,Verona
+I1,Sassuolo
+I1,Empoli
+I1,Frosinone
+I1,Carpi
+N1,Vitesse
+N1,Groningen
+N1,Nijmegen
+N1,Graafschap
+N1,Roda JC
+N1,Twente
+N1,Utrecht
+N1,PSV Eindhoven
+N1,Willem II
+N1,Ajax
+N1,AZ Alkmaar
+N1,NAC Breda
+N1,Heracles
+N1,Feyenoord
+N1,Sparta
+N1,Den Haag
+N1,Volendam
+N1,Heerenveen
+N1,Waalwijk
+N1,VVV Venlo
+N1,Roda
+N1,Excelsior
+N1,Zwolle
+N1,Cambuur
+N1,Go Ahead Eagles
+N1,Dordrecht
+P1,Guimaraes
+P1,Setubal
+P1,Pacos Ferreira
+P1,Sp Braga
+P1,Sp Lisbon
+P1,Trofense
+P1,Est Amadora
+P1,Academica
+P1,Leixoes
+P1,Nacional
+P1,Naval
+P1,Maritimo
+P1,Porto
+P1,Belenenses
+P1,Rio Ave
+P1,Benfica
+P1,Leiria
+P1,Olhanense
+P1,Portimonense
+P1,Beira Mar
+P1,Gil Vicente
+P1,Feirense
+P1,Estoril
+P1,Moreirense
+P1,Arouca
+P1,Penafiel
+P1,Boavista
+P1,Tondela
+P1,Uniao Madeira
+SC0,Aberdeen
+SC0,Inverness C
+SC0,Falkirk
+SC0,Rangers
+SC0,Hearts
+SC0,Motherwell
+SC0,Kilmarnock
+SC0,Hibernian
+SC0,Celtic
+SC0,St Mirren
+SC0,Hamilton
+SC0,Dundee United
+SC0,St Johnstone
+SC0,Dunfermline
+SC0,Dundee
+SC0,Ross County
+SC0,Partick
+SP1,Espanol
+SP1,Valladolid
+SP1,Valencia
+SP1,Mallorca
+SP1,Ath Bilbao
+SP1,Almeria
+SP1,Ath Madrid
+SP1,Malaga
+SP1,Betis
+SP1,Recreativo
+SP1,La Coruna
+SP1,Real Madrid
+SP1,Numancia
+SP1,Barcelona
+SP1,Osasuna
+SP1,Villarreal
+SP1,Santander
+SP1,Sevilla
+SP1,Sp Gijon
+SP1,Getafe
+SP1,Zaragoza
+SP1,Tenerife
+SP1,Xerez
+SP1,Hercules
+SP1,Levante
+SP1,Sociedad
+SP1,Granada
+SP1,Vallecano
+SP1,Celta
+SP1,Elche
+SP1,Eibar
+SP1,Cordoba
+SP1,Las Palmas

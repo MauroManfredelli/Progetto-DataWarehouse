@@ -1,0 +1,1 @@
+Run del main relativo alla classe Clean del package Clean.

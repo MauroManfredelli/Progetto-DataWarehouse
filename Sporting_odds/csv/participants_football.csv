@@ -1,0 +1,307 @@
+name,name_esdb_, name_fd, team_api_id,country_id,dataset
+KSV Cercle Brugge,KSV Cercle Brugge,Cercle Brugge,9984,1,esdb
+RSC Anderlecht,RSC Anderlecht,Anderlecht,8635,1,esdb
+FCV Dender EH,FCV Dender EH,Dender,7947,1,esdb
+Standard de Liege,Standard de Liege,Standard,9985,1,esdb
+KSV Roeselare,KSV Roeselare,Roeselare,9999,1,esdb
+KV Kortrijk,KV Kortrijk,Kortrijk,8571,1,esdb
+Tubize,Tubize,Tubize,4049,1,esdb
+Royal Excel Mouscron,Royal Excel Mouscron,Mouscron,9996,1,esdb
+SV Zulte-Waregem,SV Zulte-Waregem,Waregem,10000,1,esdb
+Sporting Lokeren,Sporting Lokeren,Lokeren,9994,1,esdb
+KVC Westerlo,KVC Westerlo,Westerlo,10001,1,esdb
+Sporting Charleroi,Sporting Charleroi,Charleroi,9986,1,esdb
+KRC Genk,KRC Genk,Genk,9987,1,esdb
+Germinal,,Germinal,,B1,fd
+KAA Gent,KAA Gent,Gent,9991,1,esdb
+Bergen,,Bergen,,B1,fd
+KV Mechelen,KV Mechelen,Mechelen,8203,1,esdb
+Club Brugge KV,Club Brugge KV,Club Brugge,8342,1,esdb
+Sint-Truidense VV,Sint-Truidense VV,St Truiden,9997,1,esdb
+KAS Eupen,KAS Eupen,Eupen,6351,1,esdb
+Lierse SK,Lierse SK,Lierse,9989,1,esdb
+Oud-Heverlee Leuven,Oud-Heverlee Leuven,Oud-Heverlee Leuven,1773,1,esdb
+Waasland-Beveren,Waasland-Beveren,Waasland-Beveren,8475,1,esdb
+KV Oostende,KV Oostende,Oostende,8573,1,esdb
+Mouscron-Peruwelz,,Mouscron-Peruwelz,,B1,fd
+FC Bayern Munich,FC Bayern Munich,Bayern Munich,9823,7809,esdb
+Hamburger SV,Hamburger SV,Hamburg,9790,7809,esdb
+DSC Arminia Bielefeld,DSC Arminia Bielefeld,Bielefeld,9912,7809,esdb
+SV Werder Bremen,SV Werder Bremen,Werder Bremen,8697,7809,esdb
+FC Energie Cottbus,FC Energie Cottbus,Cottbus,8398,7809,esdb
+TSG 1899 Hoffenheim,TSG 1899 Hoffenheim,Hoffenheim,8226,7809,esdb
+Karlsruher SC,Karlsruher SC,Karlsruhe,8295,7809,esdb
+VfL Bochum,VfL Bochum,Bochum,9911,7809,esdb
+Bayer 04 Leverkusen,Bayer 04 Leverkusen,Leverkusen,8178,7809,esdb
+Borussia Dortmund,Borussia Dortmund,Dortmund,9789,7809,esdb
+FC Schalke 04,FC Schalke 04,Schalke 04,10189,7809,esdb
+Hannover 96,Hannover 96,Hannover,9904,7809,esdb
+VfL Wolfsburg,VfL Wolfsburg,Wolfsburg,8721,7809,esdb
+1. FC Koln,1. FC Koln,FC Koln,8722,7809,esdb
+Eintracht Frankfurt,Eintracht Frankfurt,Ein Frankfurt,9810,7809,esdb
+Hertha BSC Berlin,Hertha BSC Berlin,Hertha,8177,7809,esdb
+Borussia Monchengladbach,Borussia Monchengladbach,M'gladbach,9788,7809,esdb
+VfB Stuttgart,VfB Stuttgart,Stuttgart,10269,7809,esdb
+1. FSV Mainz 05,1. FSV Mainz 05,Mainz,9905,7809,esdb
+1. FC Nurnberg,1. FC Nurnberg,Nurnberg,8165,7809,esdb
+SC Freiburg,SC Freiburg,Freiburg,8358,7809,esdb
+1. FC Kaiserslautern,1. FC Kaiserslautern,Kaiserslautern,8350,7809,esdb
+FC St. Pauli,FC St. Pauli,St Pauli,8152,7809,esdb
+FC Augsburg,FC Augsburg,Augsburg,8406,7809,esdb
+Fortuna Dusseldorf,Fortuna Dusseldorf,Fortuna Dusseldorf,8194,7809,esdb
+SpVgg Greuther Furth,SpVgg Greuther Furth,Greuther Furth,8357,7809,esdb
+Eintracht Braunschweig,Eintracht Braunschweig,Braunschweig,9776,7809,esdb
+SC Paderborn 07,SC Paderborn 07,Paderborn,8460,7809,esdb
+SV Darmstadt 98,SV Darmstadt 98,Darmstadt,8262,7809,esdb
+FC Ingolstadt 04,FC Ingolstadt 04,Ingolstadt,8234,7809,esdb
+Arsenal,Arsenal,Arsenal,9825,1729,esdb
+West Bromwich Albion,West Bromwich Albion,West Brom,8659,1729,esdb
+Bolton Wanderers,Bolton Wanderers,Bolton,8559,1729,esdb
+Stoke City,Stoke City,Stoke,10194,1729,esdb
+Everton,Everton,Everton,8668,1729,esdb
+Blackburn Rovers,Blackburn Rovers,Blackburn,8655,1729,esdb
+Hull City,Hull City,Hull,8667,1729,esdb
+Fulham,Fulham,Fulham,9879,1729,esdb
+Middlesbrough,Middlesbrough,Middlesbrough,8549,1729,esdb
+Tottenham Hotspur,Tottenham Hotspur,Tottenham,8586,1729,esdb
+Sunderland,Sunderland,Sunderland,8472,1729,esdb
+Liverpool,Liverpool,Liverpool,8650,1729,esdb
+West Ham United,West Ham United,West Ham,8654,1729,esdb
+Wigan Athletic,Wigan Athletic,Wigan,8528,1729,esdb
+Aston Villa,Aston Villa,Aston Villa,10252,1729,esdb
+Manchester City,Manchester City,Man City,8456,1729,esdb
+Chelsea,Chelsea,Chelsea,8455,1729,esdb
+Portsmouth,Portsmouth,Portsmouth,8462,1729,esdb
+Manchester United,Manchester United,Man United,10260,1729,esdb
+Newcastle United,Newcastle United,Newcastle,10261,1729,esdb
+Burnley,Burnley,Burnley,8191,1729,esdb
+Wolverhampton Wanderers,Wolverhampton Wanderers,Wolves,8602,1729,esdb
+Birmingham City,Birmingham City,Birmingham,8658,1729,esdb
+Blackpool,Blackpool,Blackpool,8483,1729,esdb
+Queens Park Rangers,Queens Park Rangers,QPR,10172,1729,esdb
+Norwich City,Norwich City,Norwich,9850,1729,esdb
+Swansea City,Swansea City,Swansea,10003,1729,esdb
+Reading,Reading,Reading,9798,1729,esdb
+Southampton,Southampton,Southampton,8466,1729,esdb
+Cardiff City,Cardiff City,Cardiff,8344,1729,esdb
+Crystal Palace,Crystal Palace,Crystal Palace,9826,1729,esdb
+Leicester City,Leicester City,Leicester,8197,1729,esdb
+Bournemouth,Bournemouth,Bournemouth,8678,1729,esdb
+Watford,Watford,Watford,9817,1729,esdb
+AJ Auxerre,AJ Auxerre,Auxerre,8583,4769,esdb
+FC Nantes,FC Nantes,Nantes,9830,4769,esdb
+Girondins de Bordeaux,Girondins de Bordeaux,Bordeaux,9827,4769,esdb
+SM Caen,SM Caen,Caen,7819,4769,esdb
+Le Havre AC,Le Havre AC,Le Havre,9746,4769,esdb
+OGC Nice,OGC Nice,Nice,9831,4769,esdb
+Le Mans FC,Le Mans FC,Le Mans,8682,4769,esdb
+FC Lorient,FC Lorient,Lorient,8689,4769,esdb
+AS Monaco,AS Monaco,Monaco,9829,4769,esdb
+Paris Saint-Germain,Paris Saint-Germain,Paris SG,9847,4769,esdb
+AS Nancy-Lorraine,AS Nancy-Lorraine,Nancy,8481,4769,esdb
+LOSC Lille,LOSC Lille,Lille,8639,4769,esdb
+Stade Rennais FC,Stade Rennais FC,Rennes,9851,4769,esdb
+Olympique de Marseille,Olympique de Marseille,Marseille,8592,4769,esdb
+FC Sochaux-Montbeliard,FC Sochaux-Montbeliard,Sochaux,9874,4769,esdb
+Grenoble Foot 38,Grenoble Foot 38,Grenoble,9855,4769,esdb
+Valenciennes FC,Valenciennes FC,Valenciennes,9873,4769,esdb
+AS Saint-Etienne,AS Saint-Etienne,St Etienne,9853,4769,esdb
+Olympique Lyonnais,Olympique Lyonnais,Lyon,9748,4769,esdb
+Toulouse FC,Toulouse FC,Toulouse,9941,4769,esdb
+Montpellier Herault SC,Montpellier Herault SC,Montpellier,10249,4769,esdb
+US Boulogne Cote D'Opale,US Boulogne Cote D'Opale,Boulogne,4170,4769,esdb
+RC Lens,RC Lens,Lens,8588,4769,esdb
+AC Arles-Avignon,AC Arles-Avignon,Arles,108893,4769,esdb
+Brest,,Brest,,F1,fd
+AC Ajaccio,AC Ajaccio,Ajaccio,8576,4769,esdb
+Evian Thonon Gaillard FC,Evian Thonon Gaillard FC,Evian Thonon Gaillard,4087,4769,esdb
+Dijon FCO,Dijon FCO,Dijon,9836,4769,esdb
+SC Bastia,SC Bastia,Bastia,7794,4769,esdb
+ES Troyes AC,ES Troyes AC,Troyes,10242,4769,esdb
+Stade de Reims,Stade de Reims,Reims,9837,4769,esdb
+En Avant de Guingamp,En Avant de Guingamp,Guingamp,9747,4769,esdb
+FC Metz,FC Metz,Metz,8550,4769,esdb
+Angers SCO,Angers SCO,Angers,8121,4769,esdb
+GFC Ajaccio,GFC Ajaccio,Ajaccio GFCO,6391,4769,esdb
+Sampdoria,Sampdoria,Sampdoria,9882,10257,esdb
+Inter,Inter,Inter,8636,10257,esdb
+Udinese,Udinese,Udinese,8600,10257,esdb
+Palermo,Palermo,Palermo,8540,10257,esdb
+Atalanta,Atalanta,Atalanta,8524,10257,esdb
+Siena,Siena,Siena,8551,10257,esdb
+Cagliari,Cagliari,Cagliari,8529,10257,esdb
+Lazio,Lazio,Lazio,8543,10257,esdb
+Catania,Catania,Catania,8530,10257,esdb
+Genoa,Genoa,Genoa,10233,10257,esdb
+Chievo Verona,Chievo Verona,Chievo,8533,10257,esdb
+Reggio Calabria,Reggio Calabria,Reggina,8690,10257,esdb
+Fiorentina,Fiorentina,Fiorentina,8535,10257,esdb
+Juventus,Juventus,Juventus,9885,10257,esdb
+Milan,Milan,Milan,8564,10257,esdb
+Bologna,Bologna,Bologna,9857,10257,esdb
+Roma,Roma,Roma,8686,10257,esdb
+Napoli,Napoli,Napoli,9875,10257,esdb
+Torino,Torino,Torino,9804,10257,esdb
+Lecce,Lecce,Lecce,9888,10257,esdb
+Bari,Bari,Bari,9976,10257,esdb
+Livorno,Livorno,Livorno,8537,10257,esdb
+Parma,Parma,Parma,10167,10257,esdb
+Cesena,Cesena,Cesena,9880,10257,esdb
+Brescia,Brescia,Brescia,9858,10257,esdb
+Novara,Novara,Novara,6269,10257,esdb
+Pescara,Pescara,Pescara,9878,10257,esdb
+Hellas Verona,Hellas Verona,Verona,9876,10257,esdb
+Sassuolo,Sassuolo,Sassuolo,7943,10257,esdb
+Empoli,Empoli,Empoli,8534,10257,esdb
+Frosinone,Frosinone,Frosinone,9891,10257,esdb
+Carpi,Carpi,Carpi,208931,10257,esdb
+Vitesse,Vitesse,Vitesse,8277,13274,esdb
+FC Groningen,FC Groningen,Groningen,8674,13274,esdb
+Nijmegen,,Nijmegen,,N1,fd
+De Graafschap,De Graafschap,Graafschap,8526,13274,esdb
+Roda JC Kerkrade,Roda JC Kerkrade,Roda JC,9803,13274,esdb
+FC Twente,FC Twente,Twente,8611,13274,esdb
+FC Utrecht,FC Utrecht,Utrecht,9908,13274,esdb
+PSV,PSV,PSV Eindhoven,8640,13274,esdb
+Willem II,Willem II,Willem II,8525,13274,esdb
+Ajax,Ajax,Ajax,8593,13274,esdb
+AZ,AZ,AZ Alkmaar,10229,13274,esdb
+NAC Breda,NAC Breda,NAC Breda,9761,13274,esdb
+Heracles Almelo,Heracles Almelo,Heracles,9791,13274,esdb
+Feyenoord,Feyenoord,Feyenoord,10235,13274,esdb
+Sparta Rotterdam,Sparta Rotterdam,Sparta,8614,13274,esdb
+ADO Den Haag,ADO Den Haag,Den Haag,10217,13274,esdb
+FC Volendam,FC Volendam,Volendam,6601,13274,esdb
+SC Heerenveen,SC Heerenveen,Heerenveen,10228,13274,esdb
+RKC Waalwijk,RKC Waalwijk,Waalwijk,10219,13274,esdb
+VVV-Venlo,VVV-Venlo,VVV Venlo,9839,13274,esdb
+Roda,,Roda,,N1,fd
+Excelsior,Excelsior,Excelsior,10218,13274,esdb
+PEC Zwolle,PEC Zwolle,Zwolle,6413,13274,esdb
+SC Cambuur,SC Cambuur,Cambuur,7788,13274,esdb
+Go Ahead Eagles,Go Ahead Eagles,Go Ahead Eagles,6433,13274,esdb
+FC Dordrecht,FC Dordrecht,Dordrecht,6631,13274,esdb
+Vitoria Guimaraes,Vitoria Guimaraes,Guimaraes,7844,17642,esdb
+Vitoria Setubal,Vitoria Setubal,Setubal,10238,17642,esdb
+FC Pacos de Ferreira,FC Pacos de Ferreira,Pacos Ferreira,6403,17642,esdb
+Sp Braga,,Sp Braga,,P1,fd
+Sp Lisbon,,Sp Lisbon,,P1,fd
+Trofense,Trofense,Trofense,7992,17642,esdb
+Amadora,Amadora,Est Amadora,10213,17642,esdb
+Academica de Coimbra,Academica de Coimbra,Academica,10215,17642,esdb
+Leixoes SC,Leixoes SC,Leixoes,6421,17642,esdb
+CD Nacional,CD Nacional,Nacional,10214,17642,esdb
+Naval 1' de Maio,Naval 1' de Maio,Naval,9809,17642,esdb
+CS Maritimo,CS Maritimo,Maritimo,10212,17642,esdb
+FC Porto,FC Porto,Porto,9773,17642,esdb
+CF Os Belenenses,CF Os Belenenses,Belenenses,9807,17642,esdb
+Rio Ave FC,Rio Ave FC,Rio Ave,7841,17642,esdb
+SL Benfica,SL Benfica,Benfica,9772,17642,esdb
+Uniao de Leiria,Uniao de Leiria,Leiria,9771,17642,esdb
+S.C. Olhanense,S.C. Olhanense,Olhanense,2033,17642,esdb
+Portimonense,Portimonense,Portimonense,9765,17642,esdb
+SC Beira Mar,SC Beira Mar,Beira Mar,10211,17642,esdb
+Gil Vicente FC,Gil Vicente FC,Gil Vicente,9764,17642,esdb
+Feirense,Feirense,Feirense,4064,17642,esdb
+Estoril Praia,Estoril Praia,Estoril,7842,17642,esdb
+Moreirense FC,Moreirense FC,Moreirense,8348,17642,esdb
+FC Arouca,FC Arouca,Arouca,158085,17642,esdb
+FC Penafiel,FC Penafiel,Penafiel,6547,17642,esdb
+Boavista FC,Boavista FC,Boavista,8613,17642,esdb
+Tondela,Tondela,Tondela,188163,17642,esdb
+Uniao da Madeira,Uniao da Madeira,Uniao Madeira,6367,17642,esdb
+Aberdeen,Aberdeen,Aberdeen,8485,1729,esdb
+Inverness C,,Inverness C,,SC0,fd
+Falkirk,Falkirk,Falkirk,8596,1729,esdb
+Rangers,Rangers,Rangers,8548,1729,esdb
+Hearts,,Hearts,,SC0,fd
+Motherwell,Motherwell,Motherwell,9927,1729,esdb
+Kilmarnock,Kilmarnock,Kilmarnock,8597,1729,esdb
+Hibernian,Hibernian,Hibernian,10251,1729,esdb
+Celtic,Celtic,Celtic,9925,1729,esdb
+St. Mirren,St. Mirren,St Mirren,9800,1729,esdb
+Hamilton Academical FC,Hamilton Academical FC,Hamilton,8429,1729,esdb
+Dundee United,Dundee United,Dundee United,9938,1729,esdb
+St. Johnstone FC,St. Johnstone FC,St Johnstone,8467,1729,esdb
+Dunfermline Athletic,Dunfermline Athletic,Dunfermline,8457,1729,esdb
+Dundee FC,Dundee FC,Dundee,8284,1729,esdb
+Ross County FC,Ross County FC,Ross County,8649,1729,esdb
+Partick Thistle F.C.,Partick Thistle F.C.,Partick,8426,1729,esdb
+RCD Espanyol,RCD Espanyol,Espanol,8558,21518,esdb
+Real Valladolid,Real Valladolid,Valladolid,10281,21518,esdb
+Valencia CF,Valencia CF,Valencia,10267,21518,esdb
+RCD Mallorca,RCD Mallorca,Mallorca,8661,21518,esdb
+Athletic Club de Bilbao,Athletic Club de Bilbao,Ath Bilbao,8315,21518,esdb
+UD Almeria,UD Almeria,Almeria,9865,21518,esdb
+Atletico Madrid,Atletico Madrid,Ath Madrid,9906,21518,esdb
+Malaga CF,Malaga CF,Malaga,9864,21518,esdb
+Real Betis Balompie,Real Betis Balompie,Betis,8603,21518,esdb
+RC Recreativo,RC Recreativo,Recreativo,8479,21518,esdb
+RC Deportivo de La Coruna,RC Deportivo de La Coruna,La Coruna,9783,21518,esdb
+Real Madrid CF,Real Madrid CF,Real Madrid,8633,21518,esdb
+CD Numancia,CD Numancia,Numancia,8388,21518,esdb
+FC Barcelona,FC Barcelona,Barcelona,8634,21518,esdb
+CA Osasuna,CA Osasuna,Osasuna,8371,21518,esdb
+Villarreal CF,Villarreal CF,Villarreal,10205,21518,esdb
+Racing Santander,Racing Santander,Santander,8696,21518,esdb
+Sevilla FC,Sevilla FC,Sevilla,8302,21518,esdb
+Real Sporting de Gijon,Real Sporting de Gijon,Sp Gijon,9869,21518,esdb
+Getafe CF,Getafe CF,Getafe,8305,21518,esdb
+Real Zaragoza,Real Zaragoza,Zaragoza,8394,21518,esdb
+CD Tenerife,CD Tenerife,Tenerife,9867,21518,esdb
+Xerez Club Deportivo,Xerez Club Deportivo,Xerez,9868,21518,esdb
+Hercules Club de Futbol,Hercules Club de Futbol,Hercules,10278,21518,esdb
+Levante UD,Levante UD,Levante,8581,21518,esdb
+Real Sociedad,Real Sociedad,Sociedad,8560,21518,esdb
+Granada CF,Granada CF,Granada,7878,21518,esdb
+Rayo Vallecano,Rayo Vallecano,Vallecano,8370,21518,esdb
+RC Celta de Vigo,RC Celta de Vigo,Celta,9910,21518,esdb
+Elche CF,Elche CF,Elche,10268,21518,esdb
+SD Eibar,SD Eibar,Eibar,8372,21518,esdb
+Cordoba CF,Cordoba CF,Cordoba,7869,21518,esdb
+UD Las Palmas,UD Las Palmas,Las Palmas,8306,21518,esdb
+Stade Brestois 29,Stade Brestois 29,,8521,4769,esdb
+Beerschot AC,Beerschot AC,,9993,1,esdb
+N.E.C.,N.E.C.,,8464,13274,esdb
+Wisla Krakow,Wisla Krakow,,10265,15722,esdb
+Polonia Bytom,Polonia Bytom,,8031,15722,esdb
+Ruch Chorzow,Ruch Chorzow,,1601,15722,esdb
+Legia Warszawa,Legia Warszawa,,8673,15722,esdb
+P. Warszawa,P. Warszawa,,2183,15722,esdb
+Slask Wroclaw,Slask Wroclaw,,8025,15722,esdb
+Lechia Gdansk,Lechia Gdansk,,8030,15722,esdb
+Widzew Lodz,Widzew Lodz,,8244,15722,esdb
+Odra Wodzislaw,Odra Wodzislaw,,8242,15722,esdb
+Lech Poznan,Lech Poznan,,2182,15722,esdb
+GKS Belchatow,GKS Belchatow,,8569,15722,esdb
+Arka Gdynia,Arka Gdynia,,8322,15722,esdb
+Jagiellonia Bialystok,Jagiellonia Bialystok,,1957,15722,esdb
+Piast Gliwice,Piast Gliwice,,8028,15722,esdb
+Cracovia,Cracovia,,2186,15722,esdb
+Korona Kielce,Korona Kielce,,8245,15722,esdb
+Zaglebie Lubin,Zaglebie Lubin,,8021,15722,esdb
+Podbeskidzie Bielsko-Biala,Podbeskidzie Bielsko-Biala,,8033,15722,esdb
+Pogon Szczecin,Pogon Szczecin,,8023,15722,esdb
+Zawisza Bydgoszcz,Zawisza Bydgoszcz,,8027,15722,esdb
+Gornik Leczna,Gornik Leczna,,8019,15722,esdb
+Termalica Bruk-Bet Nieciecza,Termalica Bruk-Bet Nieciecza,,177361,15722,esdb
+Sporting CP,Sporting CP,,9768,17642,esdb
+SC Braga,SC Braga,,10264,17642,esdb
+Heart of Midlothian,Heart of Midlothian,,9860,1729,esdb
+Inverness Caledonian Thistle,Inverness Caledonian Thistle,,8066,1729,esdb
+Grasshopper Club Zurich,Grasshopper Club Zurich,,9956,24558,esdb
+AC Bellinzona,AC Bellinzona,,6493,24558,esdb
+BSC Young Boys,BSC Young Boys,,10192,24558,esdb
+FC Basel,FC Basel,,9931,24558,esdb
+FC Aarau,FC Aarau,,9930,24558,esdb
+FC Sion,FC Sion,,10179,24558,esdb
+FC Luzern,FC Luzern,,10199,24558,esdb
+FC Vaduz,FC Vaduz,,9824,24558,esdb
+Neuchatel Xamax,Neuchatel Xamax,,7955,24558,esdb
+FC Zurich,FC Zurich,,10243,24558,esdb
+FC St. Gallen,FC St. Gallen,,10190,24558,esdb
+FC Thun,FC Thun,,10191,24558,esdb
+Servette FC,Servette FC,,9777,24558,esdb
+FC Lausanne-Sports,FC Lausanne-Sports,,7730,24558,esdb
+Lugano,Lugano,,7896,24558,esdb
+RAEC Mons,RAEC Mons,,9998,1,esdb
